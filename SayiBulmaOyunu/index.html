@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stlye.css" type="text/css" rel="stylesheet"/>
+    
+    <title>Sayı Tahmin Oyunu</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Sayı Tahmin Oyunu</h1>
+        <h1 id="true/false"> </h1>
+        
+    </div>
+    <div class="box">
+    <textarea name="tahmin" id="txttahmin" cols="30" rows="10"></textarea>
+    <textarea name="sonuc" id="txtsonuc" cols="30" rows="10"></textarea>
+    </div>
+    <div class="button" id="button" >
+    <button id ="button" onclick="basma(this.textContent);">1</button>
+    <button id ="button" onclick="basma(this.textContent);">2</button>
+    <button id ="button" onclick="basma(this.textContent);">3</button>
+<br>
+    <button id ="button" onclick="basma(this.textContent);">4</button>
+    <button id ="button" onclick="basma(this.textContent);">5</button>
+    <button id ="button" onclick="basma(this.textContent);">6</button>
+    <br>
+    <button id ="button" onclick="basma(this.textContent);">7</button>
+    <button id ="button" onclick="basma(this.textContent);">8</button>
+    <button id ="button" onclick="basma(this.textContent);">9</button>
+<br>
+    <button id ="button" onclick="basma(this.textContent);">0</button>
+    <br>
+    <button onclick="tahmin()">Tahmin</button>
+
+    </div>
+    
+
+
+
+
+
+
+</style>
+<script type="text/javascript" src="script.js" charset="UTF-8"></script>
+    </body>
+</html>

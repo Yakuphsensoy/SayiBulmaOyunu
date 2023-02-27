@@ -1,0 +1,49 @@
+body{
+    background-color: aquamarine;
+}
+
+.box{
+    text-align: center;
+}
+.txttahmin{
+    color:black;
+    font-size: large;
+    font-stretch: condensed;
+    font: lighter;
+
+}
+    
+
+.header{
+    text-align: center;
+    color: #5d576b;
+    background-color: #caf0f8;   
+    border-radius: 40px;
+    font-family:Copperplate, Papyrus, fantasy;
+    font-size: 20pt;
+}
+
+button{
+    background-color: pink;
+    text-align: center;
+    margin: 2px;
+    color: #416F82;
+    border-radius: 14%;
+    width: 100px;
+    height: 100px;
+} 
+ 
+
+.button{
+    text-align: center;
+    
+}
+button:hover{
+    color: #5d576b;
+    background-color: #A3B594;
+    text-align: center;
+ }
+ button:active{
+    background-color:#96A787 ;
+ }
+ 
